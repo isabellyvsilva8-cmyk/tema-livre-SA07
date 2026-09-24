@@ -1,65 +1,91 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background-color: #f8fafc;
-    color: #1e293b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
     line-height: 1.6;
 }
 
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5b21b6;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5b21b6;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5b21b6;
+    margin-bottom: 15px;
+}
+
 header {
-    background: linear-gradient(135deg, #7c3aed, #6d28d9);
+    background-color: #7c3aed;
     color: #ffffff;
-    padding: 2rem 1rem;
+    padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.15);
 }
 
-header h1 {
-    font-size: 2rem;
+footer {
+    background-color: #7c3aed;
     color: #ffffff;
-    margin-bottom: 0.5rem;
-}
-
-nav {
-    margin-top: 0.5rem;
-}
-
-nav a {
-    color: #e0e7ff;
-    margin: 0 12px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.95rem;
-    padding-bottom: 4px;
-    transition: color 0.2s ease, border-bottom 0.2s ease;
-}
-
-nav a:hover {
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff;
+    padding: 20px;
+    text-align: center;
 }
 
 main {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 30px auto;
     padding: 0 20px;
 }
 
-h1, h2, h3 {
-    color: #4c1d95;
-    margin-bottom: 1rem;
-    letter-spacing: -0.02em;
+nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-h2 {
-    font-size: 1.5rem;
+.Aviso {
+    background-color: #dbeafe;
+    border-left: 4px solid #2563eb;
+    color: #1e40af;
+    padding: 16px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
+.Aviso.alerta {
+    background-color: #fef2f2;
+    border-left: 4px solid #ef4444;
+    color: #991b1b;
+    padding: 16px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+#form-agendamento {
+    background-color: #ffffff;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url('fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 24px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
 p {
     margin-bottom: 1rem;
     color: #475569;
