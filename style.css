@@ -3,34 +3,112 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
-    color: #333333;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
     line-height: 1.6;
 }
 
-header, footer {
-    background-color: #7c3aed;
+header {
+    background: linear-gradient(135deg, #7c3aed, #6d28d9);
     color: #ffffff;
-    padding: 20px;
+    padding: 2rem 1rem;
     text-align: center;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.15);
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: #e0e7ff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding-bottom: 4px;
+    transition: color 0.2s ease, border-bottom 0.2s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 
 main {
     max-width: 800px;
-    margin: 30px auto;
+    margin: 40px auto;
     padding: 0 20px;
 }
 
-nav a {
-    color: #ffffff;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
+h1, h2, h3 {
+    color: #4c1d95;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
 }
 
-h1, h2 {
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #475569;
+}
+
+.Aviso {
+    background-color: #eff6ff;
+    border-left: 4px solid #3b82f6;
+    color: #1e40af;
+    padding: 14px 18px;
+    margin: 24px 0;
+    border-radius: 0 8px 8px 0;
+    font-weight: 500;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.Aviso.alerta {
+    background-color: #fef2f2;
+    border-left-color: #ef4444;
+    color: #991b1b;
+}
+
+#form-agendamento {
+    background-color: #ffffff;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url('fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e8f0;
+    margin-top: 30px;
+}
+
+#form-agendamento h3 {
     color: #5b21b6;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #1e1b4b;
+    color: #94a3b8;
+    padding: 24px;
+    text-align: center;
+    font-size: 0.875rem;
+    margin-top: 60px;
+}
+
+footer p {
+    color: #94a3b8;
+    margin-bottom: 0;
 }
